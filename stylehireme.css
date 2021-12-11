@@ -28,6 +28,8 @@ a{
     font-size: 20px;
 
 }
+
+
 .nav-links{
 
     display: flex;
@@ -35,4 +37,45 @@ a{
     width: 30%;
     letter-spacing: 3px;
     font-size: 14px;
+}
+
+.main{
+
+    background-color: #fcde67;
+    height: 100vh;
+}
+
+h1{
+    
+    padding: 4em;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 650px)
+{
+
+    h1{
+
+        font-size: 20px;
+        padding: 4em;
+
+
+    }
+
+    .nav-links{
+
+        display: flex;
+        justify-content: space-around;
+        width: 47%;
+        letter-spacing: 3px;
+        font-size: 8px;
+    }
+
+    .logo{
+
+        font-size: 10px;
+    }
+
 }

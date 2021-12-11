@@ -28,6 +28,8 @@ a{
     font-size: 20px;
 
 }
+
+
 .nav-links{
 
     display: flex;
@@ -35,4 +37,91 @@ a{
     width: 30%;
     letter-spacing: 3px;
     font-size: 14px;
+}
+
+.body{
+
+    background-color: #fcde67;
+    height: 100vh;
+}
+
+h1{
+
+    padding: 4em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.links a{
+
+    margin: 10em;
+}
+
+
+@media only screen and (max-width: 800px)
+{
+
+
+    h1{
+        letter-spacing: 10px;
+       
+    }
+    
+
+    .nav-links{
+
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+
+    .links a{
+
+        margin: 5em;
+    }
+
+   
+
+   
+
+    .logo{
+
+        font-size: 16px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 500px)
+{
+
+   
+    h1{
+        align-items: center;
+        font-size: 20px;
+        
+        
+    }
+   
+
+    .nav-links{
+
+        display: flex;
+        justify-content: space-around;
+        width: 47%;
+        letter-spacing: 3px;
+        font-size: 8px;
+        
+    }
+
+    .logo{
+
+        font-size: 10px;
+    }
+    
+   
+
+
 }
