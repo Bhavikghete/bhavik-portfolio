@@ -19,6 +19,7 @@ nav{
 a{
     color: #ffff;
     text-decoration: none;
+
 }
 
 .logo{
@@ -27,6 +28,14 @@ a{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.logo:hover, .nav-links li:hover{
+
+    transform: scale(1.1);
+    
 
 }
 
@@ -38,6 +47,17 @@ a{
     width: 30%;
     letter-spacing: 3px;
     font-size: 14px;
+
+
+}
+
+.nav-links a:hover{
+    color: #fcde67;
+}
+
+.nav-links li{
+    transition: 0.2s all ease-in-out;
+
 }
 
 .hero{
@@ -72,6 +92,16 @@ a{
     
     
     padding: 4em;
+}
+
+.quote{
+
+    transition: 0.2s all ease-in-out;
+}
+
+.quote:hover{
+
+    transform: scale(1.1);
 }
 
 
@@ -221,4 +251,22 @@ a{
     }
 
 
+}
+
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.herodesign{
+
+    animation: fadeIn 2s ease;
+}
+
+h1{
+
+    animation: fadeIn 4s ease;
+}
+
+.quote{
+
+    animation: fadeIn 6s ease;
 }

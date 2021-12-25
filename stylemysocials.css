@@ -26,6 +26,23 @@ a{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.logo:hover, .nav-links li:hover{
+
+    transform: scale(1.1);
+    
+
+}
+
+.nav-links a:hover{
+    color: #fcde67;
+}
+
+.nav-links li{
+    transition: 0.2s all ease-in-out;
 
 }
 
@@ -54,7 +71,21 @@ h1{
 .links a{
 
     margin: 10em;
+
+    
 }
+
+.links img{
+
+    transition: 0.2s all ease-in-out;
+}
+
+.links img:hover{
+
+    transform: scale(1.5);
+    
+}
+
 
 
 @media only screen and (max-width: 800px)
@@ -129,4 +160,17 @@ h1{
    
 
 
+}
+
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+h1{
+
+    animation: fadeIn 2s ease;
+}
+
+.links a{
+
+    animation: fadeIn 3s ease;
 }
