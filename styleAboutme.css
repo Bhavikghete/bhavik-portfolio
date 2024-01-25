@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #030e12;
+
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.logo{
+
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    transition: 0.2s all ease-in-out;
+
+
+}
+
+.logo:hover, .nav-links li:hover{
+
+    transform: scale(1.1);
+    
+
+}
+
+.nav-links a:hover{
+    color: #fcde67;
+}
+
+.nav-links li{
+    transition: 0.2s all ease-in-out;
+
+}
+
+
+.nav-links{
+
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.main{
+
+    background-color: #fcde67;
+    height: 100vh;
+}
+
+h1{
+    
+    padding: 4em;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 650px)
+{
+
+    h1{
+
+        font-size: 15px;
+        padding: 4em;
+
+
+    }
+
+    .nav-links{
+
+        display: flex;
+        justify-content: space-around;
+        width: 47%;
+        letter-spacing: 3px;
+        font-size: 8px;
+    }
+
+    .logo{
+
+        font-size: 10px;
+    }
+
+}
+
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+h1{
+
+    animation: fadeIn 2s ease;
+}
