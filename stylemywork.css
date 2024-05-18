@@ -58,22 +58,47 @@ a{
     font-size: 14px;
 }
 
-.main{
+.container1{
 
     background-color: #fcde67;
-    height: 100vh;
+    height: auto;
+    
+    
+}
+.container2{
+
+    background-color: black;
+    height: auto;
+    
     
 }
 
 h1{
     
 
-    padding: 4em;
+    padding: 1em;
     font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
 }
 
+h2{
+    
+
+    padding: 1em;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    
+
+    padding: 1em;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 650px)
 {

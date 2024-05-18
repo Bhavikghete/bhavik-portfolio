@@ -48,6 +48,7 @@ a{
 }
 
 
+
 .nav-links{
 
     display: flex;
@@ -56,16 +57,43 @@ a{
     letter-spacing: 3px;
     font-size: 14px;
 }
-
-.main{
+.container1{
 
     background-color: #fcde67;
-    height: 100vh;
+    height: auto;
+    
+    
+}
+.container2{
+
+    background-color: black;
+    height: auto;
+    
+    
 }
 
 h1{
     
-    padding: 4em;
+
+    padding: 1em;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    
+
+    padding: 1em;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    
+
+    padding: 1em;
     font-family: 'Roboto Mono', monospace;
     display: flex;
     justify-content: center;
@@ -76,7 +104,7 @@ h1{
 
     h1{
 
-        font-size: 15px;
+        font-size: 20px;
         padding: 4em;
 
 
@@ -97,7 +125,6 @@ h1{
     }
 
 }
-
 
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
